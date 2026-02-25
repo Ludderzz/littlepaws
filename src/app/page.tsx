@@ -190,31 +190,7 @@ export default function ProfessionalCharitySite() {
         </section>
       </main>
 
-      <footer className="bg-white border-t border-gray-100 py-16 px-6">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
-          <div className="flex flex-col items-center md:items-start gap-4 text-center md:text-left">
-            <div className="flex items-center gap-2">
-              <div className="bg-pink-600 p-2 rounded-xl">
-                <PawPrint size={20} className="text-white" fill="currentColor" />
-              </div>
-              <span className="text-lg font-black tracking-tighter">LITTLE PAWS RESCUE</span>
-            </div>
-            <p className="text-xs font-bold text-gray-400 uppercase tracking-widest max-w-xs">
-              A registered non-profit rescue dedicated to the welfare of cats in the UK.
-            </p>
-          </div>
-          <div className="flex gap-8">
-            <Facebook size={24} className="text-gray-400 hover:text-blue-600 transition-colors cursor-pointer" />
-            <Heart size={24} className="text-gray-400 hover:text-pink-600 transition-colors cursor-pointer" />
-            <MessageCircle size={24} className="text-gray-400 hover:text-green-600 transition-colors cursor-pointer" />
-          </div>
-        </div>
-        <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-gray-50 text-center">
-          <p className="text-[10px] font-bold text-gray-300 uppercase tracking-widest">
-            © 2026 Little Paws Rescue • Maintenance-Free Automation by [Your Name/Company]
-          </p>
-        </div>
-      </footer>
+      
     </div>
   );
 }
